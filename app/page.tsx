@@ -143,7 +143,7 @@ export default function Home() {
               { title: 'Visa status helper', desc: 'Templates and guidance on how (and when) to mention your visa status. Stop getting filtered out unfairly.' }
             ].map((feature, i) => (
               <div key={i} style={{ padding: '2rem', background: 'rgba(255, 255, 255, 0.5)', borderRadius: '12px' }}>
-                <h3 style={{ fontSize: '1rem', fontWeight: 600, color: '#1A1814', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '0.8rem' }}>{feature.title}</h3>
+                <h3 style={{ fontSize: '0.8rem', fontWeight: 600, color: '#1A1814', marginBottom: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{feature.title}</h3>
                 <p style={{ color: '#6B635A', fontSize: '0.95rem' }}>{feature.desc}</p>
               </div>
             ))}
